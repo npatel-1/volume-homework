@@ -180,7 +180,7 @@
   </section>
   <!-- Form -->
   <section>
-    <div class="container-form">
+    <!-- <div class="container-form">
       <div class="row">
         <div class="col-md-offset-3 col-md-6 col-md-offset-3 bottom-form">
           <div class="text-center">
@@ -192,28 +192,55 @@
             </p>
             <form>
               <div>
-                <input type="text" name="fname" placeholder="Name">
-                <input type="text" name="number" placeholder="number">
+                <input class="form-input" type="text" name="fname" placeholder="Name">
+                <input class="form-input" type="text" name="number" placeholder="number">
               </div>
-              <div class="">
-                <input type="email" name="email" placeholder="email">
-                <input type="text" name="query" placeholder="how can we help?">
+              <div>
+                <input class="form-input"  type="email" name="email" placeholder="email">
+                <input class="form-input" type="text" name="query" placeholder="how can we help?">
               </div>
               <input class="submit-button" type="submit" value="submit">
             </form>
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
+
+
+
+    <div class="container-form">
+        <div class="row text-center">
+          <div class="col-md-offset-3 col-md-6 col-md-offset-3 request">
+            <h2>Request Callback</h2><br>
+            <p>If you are interested in our products, software development, content creation or hardware solutions please contact us with the details below. For support queries visit the <a target="_blank" href="https://volumenetwork.atlassian.net/servicedesk/customer/portal/1">support desk</a></p>
+
+            <form action="index.html" method="post">
+              <div class="form-info">
+                <input class="details details1" type="text" name="Name" value="" placeholder="Name">
+                <input class="details details1" type="text" name="Name" value="" placeholder="Contact Number">
+              </div>
+              <div>
+                <input class="details details2" type="text" name="Email" value="" placeholder="Email">
+              </div>
+              <div>
+                <input class="details details3" type="text" name="Help" value="" placeholder="How Can We Help?">
+              </div>
+              <input class="submit-btn" type="submit" name="Submit">
+            </form>
+
+          </div>
+        </div>
+      </div>
   </section>
+
   <!-- Footer -->
-  <footer>
+  <footer class="main-footer">
     <div class="row">
       <div class="col-md-offset-5 col-md-2 col-md-offset-5 bottom">
         <div class="text-center divBackground">
           <div>
-            <i class="fab fa-twitter-square"></i>
-            <i class="fab fa-linkedin"></i>
+            <img class="logo" src="/img/twitter-logo.png" alt="">
+            <img class="logo" src="/img/linkedin-logo.png" alt="">
           </div>
           <a href="#">Support</a>
           <p>&copy 2018 Volume. All Rights Reserved.</p>
