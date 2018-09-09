@@ -1,0 +1,186 @@
+.navbar-brand img {
+  width: 73px;
+  height: 73px;
+  transform: translate(-14px, -35px);
+}
+
+div .logo {
+  width: 70px;
+}
+
+.navbar-default {
+  background-color: #7db6df;
+  border-color: #7db6df;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #050000;
+}
+
+.navbar-default .navbar-brand {
+    color: #050000;
+}
+
+.nav-info:hover {
+  background: white;
+  width: auto;
+  height: auto;
+  margin-top: 5px;
+  border: 3px solid #ff0000;
+  border-radius: 10px;
+  letter-spacing: 1px;
+  transition: .4s;
+}
+
+.col-md-7 h1, h2, li{
+    font-weight: 700;
+    color: #7db6df;
+    margin: 0;
+    padding: 0;
+}
+
+.col-md-7 p {
+  color: #565e6d
+}
+
+.col-md-3, .col-md-offset-2 {
+  padding: 40px 50px;
+}
+
+.img-class {
+    height: 600px;
+    width: 100%;
+}
+
+.fillmurray {
+  padding: 20px;
+  margin-top: 10px;
+}
+
+.colPic {
+    padding-bottom: 20px;
+}
+
+.col-md-offset-1, .col-md-3 p{
+  color: #565e6d;
+}
+
+body {
+    min-height: 100%;
+    overflow: auto;
+    color: #ffffff;
+    font-family: Lato-Regular,Verdana,Arial,Helvetica,sans-serif;
+    font-size: 16px;
+}
+
+.carousel-img {
+  height: 134px;
+
+}
+
+div .img-con {
+
+}
+
+.carousel-inner {
+  border: 2px solid grey;
+  width: 100%;
+  padding: 20px;
+}
+
+.carousel-control.left {
+  background-image: none;
+}
+
+.carousel-control.right {
+  background-image: none;
+}
+
+.glyphicon .glyphicon-chevron-right {
+  
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin: 0;
+}
+
+.grid-container img{
+  height: 210px;
+  width: 210px;
+  padding: 10px;
+}
+
+.grid-item img:hover {
+  transform: scale(1.1);
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  font-size: 30px;
+  text-align: center;
+}
+
+.container-form{
+  background-color: #020e37;
+  color: white;
+  height: 450px;
+  font-size: 16px;
+}
+
+.details{
+  font-size: 18px;
+  background-color: #201F22;
+  border-radius: 0;
+  border: 0;
+  line-height: 20px;
+  padding: 20px;
+  width: 40%;
+  margin: 10px;
+}
+
+.details2, .details3 {
+  width: 590px;
+  margin: 10px;
+}
+
+.submit-btn {
+  width: 215px;
+  height: 58px;
+  margin-top: 5px;
+  background-color: #263039;
+  border: 3px solid #7db6df;
+  color: #0069b4;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: 1s;
+}
+
+.submit-btn:hover {
+  background: black;
+  color:red;
+}
+
+footer {
+  background-color: #7db6df;
+}
+
+footer .main-footer {
+  height: 200px;
+
+}
+
+.icons {
+  padding: 20px;
+  transition: .2s;
+
+}
+
+@media only screen and (max-width: 400px) {
+  .grid-item, img {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+}
