@@ -55,4 +55,6 @@ This will change everything in the body, including background colour and font.
 1. Click on "Clone or download"
 2. Go on terminal and type git clone "paste link" (make sure you are in the right directory)
 
-###Images# volume-homework
+###Images
+
+![MacDown Screenshot](/Users/tech-a03/Desktop/volume-homework/screenshot-of-volume.png)
