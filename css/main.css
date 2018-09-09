@@ -21,6 +21,17 @@ div .logo {
     color: #050000;
 }
 
+.nav-info:hover {
+  background: white;
+  width: auto;
+  height: auto;
+  margin-top: 5px;
+  border: 3px solid #ff0000;
+  border-radius: 10px;
+  letter-spacing: 1px;
+  transition: .4s;
+}
+
 .col-md-7 h1, h2, li{
     font-weight: 700;
     color: #7db6df;
@@ -63,7 +74,30 @@ body {
 }
 
 .carousel-img {
-  height: 150px;
+  height: 134px;
+
+}
+
+div .img-con {
+
+}
+
+.carousel-inner {
+  border: 2px solid grey;
+  width: 100%;
+  padding: 20px;
+}
+
+.carousel-control.left {
+  background-image: none;
+}
+
+.carousel-control.right {
+  background-image: none;
+}
+
+.glyphicon .glyphicon-chevron-right {
+  
 }
 
 .grid-container {
@@ -78,41 +112,15 @@ body {
   padding: 10px;
 }
 
+.grid-item img:hover {
+  transform: scale(1.1);
+}
+
 .grid-item {
   background-color: rgba(255, 255, 255, 0.8);
   font-size: 30px;
   text-align: center;
 }
-
-/* .bottom-form {
-  background-color: #263039;
-
-}
-
-.container-form .row {
-  height: 365px;
-  background-color: #263039;
-}
-
-.submit-button {
-  width: 215px;
-  height: 58px;
-  margin-top: 0px;
-  background-color: blue;
-}
-}
-
-.form-input {
-  border: 0;
-  border-radius: 0;
-  border-bottom: 2px solid #7db6df;
-  background-color: #263039;
-  color: #fff;
-  font-size: 18px;
-  padding: 20px 0;
-  box-shadow: none;
-  line-height: 20px;
-} */
 
 .container-form{
   background-color: #020e37;
@@ -133,16 +141,25 @@ body {
 }
 
 .details2, .details3 {
-  width: 446px;
+  width: 590px;
   margin: 10px;
-
 }
 
 .submit-btn {
   width: 215px;
   height: 58px;
-  margin-top: 0px;
-  background-color: blue;
+  margin-top: 5px;
+  background-color: #263039;
+  border: 3px solid #7db6df;
+  color: #0069b4;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: 1s;
+}
+
+.submit-btn:hover {
+  background: black;
+  color:red;
 }
 
 footer {
@@ -154,10 +171,16 @@ footer .main-footer {
 
 }
 
-div .row {
+.icons {
+  padding: 20px;
+  transition: .2s;
 
 }
 
-div .bottom {
+@media only screen and (max-width: 400px) {
+  .grid-item, img {
+    flex-direction: column;
+    justify-content: center;
+  }
 
 }
